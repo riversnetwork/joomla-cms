@@ -6,9 +6,6 @@
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
  
- // autoload php classes
- require 'vendor/autoload.php';
-
 /**
  * Define the application's minimum supported PHP version as a constant so it can be referenced within the application.
  */
