@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'e40631d46120a9c38ea139981f8dab26' => __DIR__ . '/..' . '/ircmaxell/password-compat/lib/password.php',
+        'edc6464955a37aa4d5fbf39d40fb6ee7' => __DIR__ . '/..' . '/symfony/polyfill-php55/bootstrap.php',
+        '3e2471375464aac821502deb0ac64275' => __DIR__ . '/..' . '/symfony/polyfill-php54/bootstrap.php',
         '2fb9d6f23c8e8faefc193a4cde0cab4f' => __DIR__ . '/..' . '/joomla/string/src/phputf8/utf8.php',
         'e6851e0ae7328fe5412fcec73928f3d9' => __DIR__ . '/..' . '/joomla/string/src/phputf8/ord.php',
         'd9ad1b7c85c100a18c404a13824b846e' => __DIR__ . '/..' . '/joomla/string/src/phputf8/str_ireplace.php',
@@ -22,9 +26,6 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
         '05d739a990f75f0c44ebe1f032b33148' => __DIR__ . '/..' . '/joomla/string/src/phputf8/ucwords.php',
         '4292e2fa66516089e6006723267587b4' => __DIR__ . '/..' . '/joomla/string/src/phputf8/utils/ascii.php',
         '87465e33b7551b401bf051928f220e9a' => __DIR__ . '/..' . '/joomla/string/src/phputf8/utils/validation.php',
-        'e40631d46120a9c38ea139981f8dab26' => __DIR__ . '/..' . '/ircmaxell/password-compat/lib/password.php',
-        'edc6464955a37aa4d5fbf39d40fb6ee7' => __DIR__ . '/..' . '/symfony/polyfill-php55/bootstrap.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
     );
@@ -35,20 +36,30 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
             'Symfony\\Polyfill\\Util\\' => 22,
             'Symfony\\Polyfill\\Php56\\' => 23,
             'Symfony\\Polyfill\\Php55\\' => 23,
+            'Symfony\\Polyfill\\Php54\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\Stopwatch\\' => 28,
+            'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\Process\\' => 26,
+            'Symfony\\Component\\HttpKernel\\' => 29,
+            'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\CS\\' => 11,
+            'Symfony\\Bridge\\Twig\\' => 20,
+            'Silex\\' => 6,
         ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'J' => 
         array (
@@ -89,6 +100,10 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php55',
         ),
+        'Symfony\\Polyfill\\Php54\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php54',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -101,9 +116,21 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
         array (
             0 => __DIR__ . '/..' . '/symfony/stopwatch',
         ),
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
         'Symfony\\Component\\Process\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
+        ),
+        'Symfony\\Component\\HttpKernel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/http-kernel',
+        ),
+        'Symfony\\Component\\HttpFoundation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
         'Symfony\\Component\\Finder\\' => 
         array (
@@ -129,9 +156,21 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
         array (
             0 => __DIR__ . '/..' . '/friendsofphp/php-cs-fixer/Symfony/CS',
         ),
+        'Symfony\\Bridge\\Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bridge',
+        ),
+        'Silex\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silex/silex/src/Silex',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'Joomla\\Utilities\\Tests\\' => 
         array (
@@ -215,6 +254,13 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
                 0 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             ),
         ),
+        'T' => 
+        array (
+            'Twig_' => 
+            array (
+                0 => __DIR__ . '/..' . '/twig/twig/lib',
+            ),
+        ),
         'S' => 
         array (
             'SimplePie' => 
@@ -227,6 +273,10 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+            'Pimple' => 
+            array (
+                0 => __DIR__ . '/..' . '/pimple/pimple/lib',
             ),
         ),
         'J' => 
@@ -886,6 +936,7 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
         'PSR2_Sniffs_Methods_MethodDeclarationSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Methods/MethodDeclarationSniff.php',
         'PSR2_Sniffs_Namespaces_NamespaceDeclarationSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Namespaces/NamespaceDeclarationSniff.php',
         'PSR2_Sniffs_Namespaces_UseDeclarationSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/PSR2/Sniffs/Namespaces/UseDeclarationSniff.php',
+        'RecursiveCallbackFilterIterator' => __DIR__ . '/..' . '/symfony/polyfill-php54/Resources/stubs/RecursiveCallbackFilterIterator.php',
         'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
         'SebastianBergmann\\Comparator\\ArrayComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ArrayComparator.php',
         'SebastianBergmann\\Comparator\\Comparator' => __DIR__ . '/..' . '/sebastian/comparator/src/Comparator.php',
@@ -923,6 +974,7 @@ class ComposerStaticInit205c915b9c7d3e718e7c95793ee67ffe
         'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'SessionHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php54/Resources/stubs/SessionHandlerInterface.php',
         'Squiz_Sniffs_Arrays_ArrayBracketSpacingSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayBracketSpacingSniff.php',
         'Squiz_Sniffs_Arrays_ArrayDeclarationSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayDeclarationSniff.php',
         'Squiz_Sniffs_CSS_ClassDefinitionClosingBraceSpaceSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ClassDefinitionClosingBraceSpaceSniff.php',

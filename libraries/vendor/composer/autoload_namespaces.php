@@ -7,7 +7,9 @@ $baseDir = dirname(dirname($vendorDir));
 
 return array(
     'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'SimplePie' => array($vendorDir . '/simplepie/simplepie/library'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
     'Joomla\\Session' => array($vendorDir . '/joomla/session'),
 );
