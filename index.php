@@ -7,7 +7,7 @@
  */
  
  // autoload php classes
- require('../vendor/autoload.php');
+ require 'vendor/autoload.php';
 
 /**
  * Define the application's minimum supported PHP version as a constant so it can be referenced within the application.
